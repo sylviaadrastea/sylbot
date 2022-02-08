@@ -110,7 +110,7 @@ audio20 = fs.readFileSync('./Z3/Ramdani20.m4a')
             const nnnyz5 = [
             {buttonId: 'id1', buttonText: {displayText: 'WELCOME'}, type: 1}]
             const nnnyz6 = {contentText: `[ *SELAMAT DATANG* ]\n${tz} *NAME* : @${memJid.split('@')[0]}\n${tz} *GROUP* : ${mdata.subject}\n${tz} *MEMBER* : ${jumlahMem.length}`, footerText: `© botz by ${nama} || 2022`, buttons: nnnyz5, headerType: 6, locationMessage: nnnyz4.message.locationMessage}
-            nayla.sendMessage(mdata.id,  nnnyz6, MessageType.buttonsMessage,{caption: 'whatsapp',"contextInfo": {text: 'RAMDANI BOTZ', "forwardingScore": 1000000000, isForwarded: true, sendEphemeral: true, "mentionedJid" : [memJid], },sendEphemeral: true})                         
+            nayla.sendMessage(mdata.id,  nnnyz6, MessageType.buttonsMessage,{caption: 'whatsapp',"contextInfo": {text: 'SYLBOT', "forwardingScore": 1000000000, isForwarded: true, sendEphemeral: true, "mentionedJid" : [memJid], },sendEphemeral: true})                         
 			}
             if (anu.action == 'remove') {
             let nnnyz2 = fs.readFileSync(`Z2/out.jpeg`)
@@ -119,7 +119,7 @@ audio20 = fs.readFileSync('./Z3/Ramdani20.m4a')
             const nnnyz5 = [
             {buttonId: 'id1', buttonText: {displayText: 'BYEEEE'}, type: 1}]
             const nnnyz6 = {contentText: `[ *SELAMAT TINGGAL* ]\n${tz} *NAME* : @${memJid.split('@')[0]}\n${tz} *GROUP* : ${mdata.subject}\n${tz} *MEMBER* : ${jumlahMem.length}`, footerText: `© botz by ${nama} || 2022`, buttons: nnnyz5, headerType: 6, locationMessage: nnnyz4.message.locationMessage}
-            nayla.sendMessage(mdata.id,  nnnyz6, MessageType.buttonsMessage,{caption: 'whatsapp',"contextInfo": {text: 'RAMDANI BOTZ', "forwardingScore": 1000000000, isForwarded: true, sendEphemeral: true, "mentionedJid" : [memJid], },sendEphemeral: true})             
+            nayla.sendMessage(mdata.id,  nnnyz6, MessageType.buttonsMessage,{caption: 'whatsapp',"contextInfo": {text: 'SYLBOT', "forwardingScore": 1000000000, isForwarded: true, sendEphemeral: true, "mentionedJid" : [memJid], },sendEphemeral: true})             
             }
 		    } catch (e) {
 			console.log(e)
@@ -2262,385 +2262,377 @@ ${setting.linkgrub3}
 		    case 'help':
 		    if (isBanned) return reply("MAAF ANDA TELAH DI BANNED")
 		  	menu5 = `${aart}\nMENAMPILKAN MENU ${namabot}`
-			menu3 = `*HALLO ${codename}*
+			menu3 = `*Haloo ${codename} ini menunya*
 			
-╭─⬣「 *GROUP MENU* 」⬣
-│❏ヅ *${prefix}hidetag*
-│❏ヅ *${prefix}leave*
-│❏ヅ *${prefix}tagtime*
-│❏ヅ *${prefix}delete*
-│❏ヅ *${prefix}tagall*
-│❏ヅ *${prefix}tagall2*
-│❏ヅ *${prefix}tagall3*
-│❏ヅ *${prefix}tagall4*
-│❏ヅ *${prefix}tagall5*
-│❏ヅ *${prefix}linkgrub*
-│❏ヅ *${prefix}setdesc*
-│❏ヅ *${prefix}listadmin*
-│❏ヅ *${prefix}setname*
-│❏ヅ *${prefix}group*
-│❏ヅ *${prefix}listonline*
-│❏ヅ *${prefix}add*
-│❏ヅ *${prefix}kick*
-│❏ヅ *${prefix}antilink*
-│❏ヅ *${prefix}antivirtex*
-│❏ヅ *${prefix}antitag*
-│❏ヅ *${prefix}antitoxic*
-│❏ヅ *${prefix}kickrandom*
-│❏ヅ *${prefix}sms*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *GROUP MENU*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ  *${prefix}hidetag*
+┆┆░⃝⏱️ ⊱ׂ  *${prefix}leave*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tagtime*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}delete*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tagall*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tagall2*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tagall3*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tagall4*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tagall5*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}linkgrub*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}setdesc*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}listadmin*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}setname*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}group*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}listonline*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}add*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}kick*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}antilink*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}antivirtex*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}antitag*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}antitoxic*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}kickrandom*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sms*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈┈ׅ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈ׅ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *WALLPAPER* 」⬣
-│❏ヅ *${prefix}wallrandom* 
-│❏ヅ *${prefix}wallcode*
-│❏ヅ *${prefix}wallneon*
-│❏ヅ *${prefix}wallhacker*
-│❏ヅ *${prefix}wallpubg*
-│❏ヅ *${prefix}wallml*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *WALLPAPER*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wallrandom* 
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wallcode*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wallneon*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wallhacker*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wallpubg*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wallml*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈┈ׅ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ ┘┘
 
-╭─⬣「 *TEXTPRO* 」⬣
-│❏ヅ *${prefix}halloween* <text>
-│❏ヅ *${prefix}rainbow* <text>
-│❏ヅ *${prefix}scfi* <text>
-│❏ヅ *${prefix}blue* <text>
-│❏ヅ *${prefix}juice* <text>
-│❏ヅ *${prefix}purple* <text>
-│❏ヅ *${prefix}toxic* <text>
-│❏ヅ *${prefix}peridot* <text>
-│❏ヅ *${prefix}metal* <text>
-│❏ヅ *${prefix}realistic* <text>
-│❏ヅ *${prefix}impressive* <text>
-│❏ヅ *${prefix}cracked* <text>
-│❏ヅ *${prefix}magma* <text>
-│❏ヅ *${prefix}thunder* <text>
-│❏ヅ *${prefix}berry* <text>
-│❏ヅ *${prefix}transformer* <text>
-│❏ヅ *${prefix}horror* <text>
-│❏ヅ *${prefix}metallic* <text>
-│❏ヅ *${prefix}circuit* <text>
-│❏ヅ *${prefix}sketch* <text>
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *TEXT PRO*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}halloween* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}rainbow* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}scfi* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}blue* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}juice* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}purple* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}toxic* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}peridot* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}metal* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}realistic* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}impressive* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cracked* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}magma* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}thunder* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}berry* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}transformer* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}horror* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}metallic* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}circuit* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sketch* <text>
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈┈ׅ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *RANDOM* 」⬣
-│❏ヅ *${prefix}mygrub* 
-│❏ヅ *${prefix}ceklimit* <text>
-│❏ヅ *${prefix}claim* <text>
-│❏ヅ *${prefix}artinama* <text>
-│❏ヅ *${prefix}artimimpi* <text>
-│❏ヅ *${prefix}resepmasakan* <text>
-│❏ヅ *${prefix}katajago* <text>
-│❏ヅ *${prefix}besarkecil* <text>
-│❏ヅ *${prefix}jumlahhuruf* <text>
-│❏ヅ *${prefix}jumlahangka* <text>
-│❏ヅ *${prefix}infogempa* 
-│❏ヅ *${prefix}balikangka* <text>
-│❏ヅ *${prefix}wikipedia* <text>
-│❏ヅ *${prefix}balikhuruf* <text>
-│❏ヅ *${prefix}bilangangka* <text>
-│❏ヅ *${prefix}holoh* <text>
-│❏ヅ *${prefix}heleh* <text>
-│❏ヅ *${prefix}huluh* <text>
-│❏ヅ *${prefix}hilih* <text>
-│❏ヅ *${prefix}halah* <text>
-│❏ヅ *${prefix}kapital* <text>
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *RANDOM*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}mygrub* 
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ceklimit* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}claim* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}artinama* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}artimimpi* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}resepmasakan* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}katajago* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}besarkecil* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jumlahhuruf* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jumlahangka* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}infogempa* 
+┆┆░⃝⏱️ ⊱ׂ *${prefix}balikangka* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wikipedia* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}balikhuruf* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bilangangka* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}holoh* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}heleh* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}huluh* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}hilih* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}halah* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}kapital* <text>
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈ׅ┈┈ׅ┈ׂ┈ׅ ┘┘
 
-╭─⬣「 *ANIME* 」⬣
-│❏ヅ *${prefix}saitama*
-│❏ヅ *${prefix}gon*
-│❏ヅ *${prefix}killua*
-│❏ヅ *${prefix}kakashi*
-│❏ヅ *${prefix}tsunade*
-│❏ヅ *${prefix}orochimaru*
-│❏ヅ *${prefix}mitsuki*
-│❏ヅ *${prefix}sarada*
-│❏ヅ *${prefix}boruto*
-│❏ヅ *${prefix}sakura*
-│❏ヅ *${prefix}sasuke*
-│❏ヅ *${prefix}minato*
-│❏ヅ *${prefix}naruto*
-│❏ヅ *${prefix}copper*
-│❏ヅ *${prefix}nami*
-│❏ヅ *${prefix}ussop*
-│❏ヅ *${prefix}sanji*
-│❏ヅ *${prefix}luffy*
-│❏ヅ *${prefix}zoro*
-│❏ヅ *${prefix}senku*
-│❏ヅ *${prefix}nezuko*
-│❏ヅ *${prefix}tanjirou*
-│❏ヅ *${prefix}natsu*
-│❏ヅ *${prefix}sagiri*
-│❏ヅ *${prefix}rimuru*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *ANIME*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}saitama*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}gon*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}killua*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}kakashi*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tsunade*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}orochimaru*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}mitsuki*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sarada*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}boruto*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sakura*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sasuke*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}minato*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}naruto*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}copper*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}nami*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ussop*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sanji*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}luffy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zoro*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}senku*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}nezuko*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tanjirou*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}natsu*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sagiri*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}rimuru*
+└└  ┈ׅ┈ׂ┈ׅ┈┈ׅ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ ┘┘
 
-╭─⬣「 *WALLPAPER* 」⬣
-│❏ヅ *${prefix}ytmp3*
-│❏ヅ *${prefix}ytmp4*
-│❏ヅ *${prefix}playmp3* [ *ERR* ]
-│❏ヅ *${prefix}playmp4* [ *ERR* ]
-│❏ヅ *${prefix}tiktokmp4*
-│❏ヅ *${prefix}tiktokmp3*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *DOWNLOAD*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ytmp3*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ytmp4*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}playmp3* [ *ERR* ]
+┆┆░⃝⏱️ ⊱ׂ *${prefix}playmp4* [ *ERR* ]
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tiktokmp4*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}tiktokmp3*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ ┘┘
 
-╭─⬣「 *VRANDOM* 」⬣
-│❏ヅ *${prefix}vsadboy*
-│❏ヅ *${prefix}vpakboy*
-│❏ヅ *${prefix}vbaik*
-│❏ヅ *${prefix}vjago*
-│❏ヅ *${prefix}vjelek*
-│❏ヅ *${prefix}vcantik*
-│❏ヅ *${prefix}vpinter*
-│❏ヅ *${prefix}vbeban*
-│❏ヅ *${prefix}vkontol*
-│❏ヅ *${prefix}vhebat*
-│❏ヅ *${prefix}vwibu*
-│❏ヅ *${prefix}vharam*
-│❏ヅ *${prefix}vbabi*
-│❏ヅ *${prefix}vbego*
-│❏ヅ *${prefix}vganteng*
-│❏ヅ *${prefix}vanjing*
-│❏ヅ *${prefix}vmonyet*
-│❏ヅ *${prefix}vsadgirl*
-│❏ヅ *${prefix}vpakgirl*
-│❏ヅ *${prefix}vjahat*
-│❏ヅ *${prefix}vnolep*
-│❏ヅ *${prefix}vgoblok*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *VRANDOM* ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vsadboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vpakboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vbaik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vjago*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vjelek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vcantik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vpinter*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vbeban*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vhebat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vwibu*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vharam*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vbabi*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vbego*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vganteng*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vanjing*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vmonyet*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vsadgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vpakgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vjahat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vnolep*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}vgoblok*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *ZRANDOM* 」⬣
-│❏ヅ *${prefix}zsadboy*
-│❏ヅ *${prefix}zpakboy*
-│❏ヅ *${prefix}zbaik*
-│❏ヅ *${prefix}zjago*
-│❏ヅ *${prefix}zjelek*
-│❏ヅ *${prefix}zcantik*
-│❏ヅ *${prefix}zpinter*
-│❏ヅ *${prefix}zbeban*
-│❏ヅ *${prefix}zkontol*
-│❏ヅ *${prefix}zhebat*
-│❏ヅ *${prefix}zwibu*
-│❏ヅ *${prefix}zharam*
-│❏ヅ *${prefix}zbabi*
-│❏ヅ *${prefix}zbego*
-│❏ヅ *${prefix}zganteng*
-│❏ヅ *${prefix}zanjing*
-│❏ヅ *${prefix}zmonyet*
-│❏ヅ *${prefix}zsadgirl*
-│❏ヅ *${prefix}zpakgirl*
-│❏ヅ *${prefix}zjahat*
-│❏ヅ *${prefix}znolep*
-│❏ヅ *${prefix}zgoblok*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *ZRANDOM*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zsadboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zpakboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zbaik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zjago*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zjelek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zcantik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zpinter*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zbeban*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zhebat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zwibu*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zharam*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zbabi*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zbego*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zganteng*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zanjing*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zmonyet*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zsadgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zpakgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zjahat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}znolep*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}zgoblok*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈ׅ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *TAGRANDOM* 」⬣
-│❏ヅ *${prefix}sadboy*
-│❏ヅ *${prefix}pakboy*
-│❏ヅ *${prefix}baik*
-│❏ヅ *${prefix}jago*
-│❏ヅ *${prefix}jelek*
-│❏ヅ *${prefix}cantik*
-│❏ヅ *${prefix}pinter*
-│❏ヅ *${prefix}beban*
-│❏ヅ *${prefix}kontol*
-│❏ヅ *${prefix}hebat*
-│❏ヅ *${prefix}wibu*
-│❏ヅ *${prefix}haram*
-│❏ヅ *${prefix}babi*
-│❏ヅ *${prefix}bego*
-│❏ヅ *${prefix}ganteng*
-│❏ヅ *${prefix}anjing*
-│❏ヅ *${prefix}monyet*
-│❏ヅ *${prefix}sadgirl*
-│❏ヅ *${prefix}pakgirl*
-│❏ヅ *${prefix}jahat*
-│❏ヅ *${prefix}nolep*
-│❏ヅ *${prefix}goblok*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *TAG RANDOM*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sadboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pakboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}baik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jago*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jelek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cantik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pinter*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}beban*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}kontol*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}hebat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}wibu*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}haram*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}babi*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bego*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ganteng*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}anjing*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}monyet*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sadgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pakgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jahat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}nolep*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}goblok*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈┈ׅ┈ׅ ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *RATERANDOM* 」⬣
-│❏ヅ *${prefix}bapercek*
-│❏ヅ *${prefix}sangecek*
-│❏ヅ *${prefix}pakgirlcek*
-│❏ヅ *${prefix}pakboycek*
-│❏ヅ *${prefix}kontolcek*
-│❏ヅ *${prefix}haramcek*
-│❏ヅ *${prefix}anjingcek*
-│❏ヅ *${prefix}jahatcek*
-│❏ヅ *${prefix}baikcek*
-│❏ヅ *${prefix}bebancek*
-│❏ヅ *${prefix}babicek*
-│❏ヅ *${prefix}nolepcek*
-│❏ヅ *${prefix}jagocek*
-│❏ヅ *${prefix}pintarcek*
-│❏ヅ *${prefix}begocek*
-│❏ヅ *${prefix}goblokcek*
-│❏ヅ *${prefix}jelekcek*
-│❏ヅ *${prefix}cantikcek*
-│❏ヅ *${prefix}gantengcek*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *RATERANDOM* ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bapercek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sangecek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pakgirlcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pakboycek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}haramcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}anjingcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jahatcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}baikcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bebancek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}babicek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}nolepcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jagocek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pintarcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}begocek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}goblokcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jelekcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cantikcek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}gantengcek*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈┈ׅ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈ׅ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *XRANDOM* 」⬣
-│❏ヅ *${prefix}xsadboy* <tag>
-│❏ヅ *${prefix}xpakboy* <tag>
-│❏ヅ *${prefix}xbaik* <tag>
-│❏ヅ *${prefix}xjago* <tag>
-│❏ヅ *${prefix}xjelek* <tag>
-│❏ヅ *${prefix}xcantik* <tag>
-│❏ヅ *${prefix}xpinter* <tag>
-│❏ヅ *${prefix}xbeban* <tag>
-│❏ヅ *${prefix}xkontol* <tag>
-│❏ヅ *${prefix}xhebat* <tag>
-│❏ヅ *${prefix}xwibu* <tag>
-│❏ヅ *${prefix}xharam* <tag>
-│❏ヅ *${prefix}xbabi* <tag>
-│❏ヅ *${prefix}xbego* <tag>
-│❏ヅ *${prefix}xganteng* <tag>
-│❏ヅ *${prefix}xanjing* <tag>
-│❏ヅ *${prefix}xmonyet* <tag>
-│❏ヅ *${prefix}xsadgirl* <tag>
-│❏ヅ *${prefix}xpakgirl* <tag>
-│❏ヅ *${prefix}xjahat* <tag>
-│❏ヅ *${prefix}xnolep* <tag>
-│❏ヅ *${prefix}xgoblok* <tag>
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *XRANDOM*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xsadboy* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xpakboy* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xbaik* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xjago* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xjelek* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xcantik* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xpinter* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xbeban* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xhebat* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xwibu* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xharam* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xbabi* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xbego* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xganteng* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xanjing* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xmonyet* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xsadgirl* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xpakgirl* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xjahat* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xnolep* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}xgoblok* <tag>
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *OWNER* 」⬣
-│❏ヅ *${prefix}bc*
-│❏ヅ *${prefix}ban*
-│❏ヅ *${prefix}unban*
-│❏ヅ *${prefix}bcgc*
-│❏ヅ *${prefix}setprefix*
-│❏ヅ *${prefix}settz*
-│❏ヅ *${prefix}join*
-│❏ヅ *${prefix}addprem*
-│❏ヅ *${prefix}dellprem*
-│❏ヅ *${prefix}setppbot*
-│❏ヅ *${prefix}return*
-│❏ヅ *${prefix}setart*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *OWNER*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bc*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ban*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}unban*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bcgc*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}setprefix*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}settz*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}join*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}addprem*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}dellprem*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}setppbot*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}return*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}setart*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ ┘┘
 
-╭─⬣「 *AUDIO* 」⬣
-│❏ヅ *${prefix}audio1*
-│❏ヅ *${prefix}audio2*
-│❏ヅ *${prefix}audio3*
-│❏ヅ *${prefix}audio4*
-│❏ヅ *${prefix}audio5*
-│❏ヅ *${prefix}audio6*
-│❏ヅ *${prefix}audio7*
-│❏ヅ *${prefix}audio8*
-│❏ヅ *${prefix}audio9*
-│❏ヅ *${prefix}audio10*
-│❏ヅ *${prefix}audio11*
-│❏ヅ *${prefix}audio12*
-│❏ヅ *${prefix}audio13*
-│❏ヅ *${prefix}audio14*
-│❏ヅ *${prefix}audio15*
-│❏ヅ *${prefix}audio16*
-│❏ヅ *${prefix}audio17*
-│❏ヅ *${prefix}audio18*
-│❏ヅ *${prefix}audio19*
-│❏ヅ *${prefix}audio20* 
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *AUDIO*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio1*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio2*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio3*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio4*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio5*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio6*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio7*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio8*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio9*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio10*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio11*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio12*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio13*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio14*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio15*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio16*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio17*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio18*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio19*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}audio20* 
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ ┘┘
 
-╭─⬣「 *RATETAG* 」⬣
-│❏ヅ *${prefix}bapertag* <tag>
-│❏ヅ *${prefix}sangetag* <tag>
-│❏ヅ *${prefix}pakgirltag* <tag>
-│❏ヅ *${prefix}pakboytag* <tag>
-│❏ヅ *${prefix}kontoltag* <tag>
-│❏ヅ *${prefix}haramtag* <tag>
-│❏ヅ *${prefix}anjingtag* <tag>
-│❏ヅ *${prefix}jahattag* <tag>
-│❏ヅ *${prefix}baiktag* <tag>
-│❏ヅ *${prefix}bebantag* <tag>
-│❏ヅ *${prefix}babitag* <tag>
-│❏ヅ *${prefix}noleptag* <tag>
-│❏ヅ *${prefix}jagotag* <tag>
-│❏ヅ *${prefix}pintartag* <tag>
-│❏ヅ *${prefix}begotag* <tag>
-│❏ヅ *${prefix}gobloktag* <tag>
-│❏ヅ *${prefix}jelektag* <tag>
-│❏ヅ *${prefix}cantiktag* <tag>
-│❏ヅ *${prefix}gantengtag* <tag>
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *RATETAG*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bapertag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sangetag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pakgirltag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pakboytag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}haramtag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}anjingtag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jahattag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}baiktag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}bebantag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}babitag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}noleptag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jagotag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}pintartag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}begotag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}gobloktag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jelektag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cantiktag* <tag>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}gantengtag* <tag>
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ ┘┘
 
-╭─⬣「 *SRANDOM* 」⬣
-│❏ヅ *${prefix}ssadboy*
-│❏ヅ *${prefix}spakboy*
-│❏ヅ *${prefix}sbaik*
-│❏ヅ *${prefix}sjago*
-│❏ヅ *${prefix}sjelek*
-│❏ヅ *${prefix}scantik*
-│❏ヅ *${prefix}spinter*
-│❏ヅ *${prefix}sbeban*
-│❏ヅ *${prefix}skontol*
-│❏ヅ *${prefix}shebat*
-│❏ヅ *${prefix}swibu*
-│❏ヅ *${prefix}sharam*
-│❏ヅ *${prefix}sbabi*
-│❏ヅ *${prefix}sbego*
-│❏ヅ *${prefix}sganteng*
-│❏ヅ *${prefix}sanjing*
-│❏ヅ *${prefix}smonyet*
-│❏ヅ *${prefix}ssadgirl*
-│❏ヅ *${prefix}spakgirl*
-│❏ヅ *${prefix}sjahat*
-│❏ヅ *${prefix}snolep*
-│❏ヅ *${prefix}sgoblok*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *SRANDOM*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ssadboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}spakboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sbaik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sjago*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sjelek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}scantik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}spinter*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sbeban*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}shebat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}swibu*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sharam*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sbabi*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sbego*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sganteng*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sanjing*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}smonyet*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ssadgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}spakgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sjahat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}snolep*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sgoblok*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈┈ׅ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *CRANDOM* 」⬣
-│❏ヅ *${prefix}csadboy*
-│❏ヅ *${prefix}cpakboy*
-│❏ヅ *${prefix}cbaik*
-│❏ヅ *${prefix}cjago*
-│❏ヅ *${prefix}cjelek*
-│❏ヅ *${prefix}ccantik*
-│❏ヅ *${prefix}cpinter*
-│❏ヅ *${prefix}cbeban*
-│❏ヅ *${prefix}ckontol*
-│❏ヅ *${prefix}chebat*
-│❏ヅ *${prefix}cwibu*
-│❏ヅ *${prefix}charam*
-│❏ヅ *${prefix}cbabi*
-│❏ヅ *${prefix}cbego*
-│❏ヅ *${prefix}cganteng*
-│❏ヅ *${prefix}canjing*
-│❏ヅ *${prefix}cmonyet*
-│❏ヅ *${prefix}csadgirl*
-│❏ヅ *${prefix}cpakgirl*
-│❏ヅ *${prefix}cjahat*
-│❏ヅ *${prefix}cnolep*
-│❏ヅ *${prefix}cgoblok*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ CRANDOM  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}csadboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cpakboy*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cbaik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cjago*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cjelek*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ccantik*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cpinter*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cbeban*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}chebat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cwibu*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}charam*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cbabi*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cbego*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cganteng*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}canjing*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cmonyet*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}csadgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cpakgirl*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cjahat*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cnolep*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}cgoblok*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *SEARCH* 」⬣
-│❏ヅ *${prefix}grubwa* <text>
-│❏ヅ *${prefix}arena* <text>
-│❏ヅ *${prefix}amazon* <text>
-│❏ヅ *${prefix}shopee* <text>
-│❏ヅ *${prefix}thelazy* <text>
-│❏ヅ *${prefix}cersex* <text>
-│❏ヅ *${prefix}ytsearch* <text>
-│❏ヅ *${prefix}rexdl* <text>
-│❏ヅ *${prefix}mod* <text>
-│❏ヅ *${prefix}sfile* <text>
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *SEARCH*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}grubwa* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}arena* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}amazon* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}shopee* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}thelazy* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}ytsearch* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}rexdl* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}mod* <text>
+┆┆░⃝⏱️ ⊱ׂ *${prefix}sfile* <text>
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘
 
-╭─⬣「 *NEWSS* 」⬣
-│❏ヅ *${prefix}antara*
-│❏ヅ *${prefix}okezone*
-│❏ヅ *${prefix}kompas*
-└⬣
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *NEWS* ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}antara*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}okezone*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}kompas*
+└└  ┈ׅ┈ׂ┈ׅ┈◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈┈ׅ┈ׂ┈ׂ ┘┘
 
-╭─⬣「 *INFORMATION* 」⬣
-│❏ヅ *${prefix}jam*
-│❏ヅ *${prefix}jamdunia*
-│❏ヅ *${prefix}jadwalbola*
-│❏ヅ *${prefix}infohoax*
-│❏ヅ *${prefix}coronameninggal*
-└⬣`    
+┌┌ׂ┈ׅ┈ׂ┈ׅ ⛸️ ֿ *INFORMATION*  ◌ ׂ┈ׅ┈ׂ┈ׅ┐┐
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jam*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jamdunia*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}jadwalbola*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}infohoax*
+┆┆░⃝⏱️ ⊱ׂ *${prefix}coronameninggal*
+└└  ┈ׅ┈ׂ┈ׅ┈ׂ┈ׅ┈┈ׅ ◌ ꒰ ֿ⛸️ ꒱ ◌ ׂ┈ׅ┈┈ׅ┈ׂ┈ׅ┈ׂ ┘┘`    
 // NOTE : JGN HAPUS THX TO!!
 // HAPUS? SELOW REST API SUNG PADAM
 menu4 = "BOT VERSI 1 : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg"  
@@ -2649,7 +2641,7 @@ menu4 = "BOT VERSI 1 : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg"
             nayla.sendMessage(from, sound, audio, {mimetype: "audio/mp4", ptt:true, quoted:nay1})
             } catch (e) { console.log(color("JIKA INGIN MENAMBAHKAN AUDIO/SOUND PADA MENU, SILAHKAN ADD/TEMPEL AUDIO KALIAN DI VOLDER Z2, LALU UBAH NAMA SOUND MENJADI menu.mp3", 'green'))}            
             reply(menu5)
-			var _0x281e0c=_0x5c57;function _0x5c57(_0x4c3c80,_0x5b37a0){var _0x538261=_0x5382();return _0x5c57=function(_0x5c57aa,_0x1443cc){_0x5c57aa=_0x5c57aa-0x180;var _0x3f1622=_0x538261[_0x5c57aa];return _0x3f1622;},_0x5c57(_0x4c3c80,_0x5b37a0);}function _0x5382(){var _0x41d9f5=['imageMessage','245MQWoiv','image/jpeg','IDR','prepareMessageFromContent','4noKTTf','140364CfGqyo','10000000','9000000','235800qLozGj','6550ZtoQGf','1093401LBnIAC','RUNTIME\x20:\x20','1903RXkwVn','249365zZVVTi','2fEzCzr','https://myselfff.herokuapp.com','182785uniFUs','0@s.whatsapp.net','0@c.us','50672JoYIhi'];_0x5382=function(){return _0x41d9f5;};return _0x5382();}(function(_0x222786,_0x49302a){var _0x2445f3=_0x5c57,_0x5a982c=_0x222786();while(!![]){try{var _0x527bdc=-parseInt(_0x2445f3(0x192))/0x1*(-parseInt(_0x2445f3(0x193))/0x2)+-parseInt(_0x2445f3(0x18a))/0x3+-parseInt(_0x2445f3(0x189))/0x4*(-parseInt(_0x2445f3(0x180))/0x5)+-parseInt(_0x2445f3(0x18d))/0x6+-parseInt(_0x2445f3(0x185))/0x7*(parseInt(_0x2445f3(0x183))/0x8)+parseInt(_0x2445f3(0x18f))/0x9+parseInt(_0x2445f3(0x18e))/0xa*(parseInt(_0x2445f3(0x191))/0xb);if(_0x527bdc===_0x49302a)break;else _0x5a982c['push'](_0x5a982c['shift']());}catch(_0x2b54d2){_0x5a982c['push'](_0x5a982c['shift']());}}}(_0x5382,0x33fd4));var help1=await nayla['prepareMessage'](_0x281e0c(0x182),helpimg,image,{'thumbnail':helpimg}),help2=help1['message'][_0x281e0c(0x184)],help3=await nayla[_0x281e0c(0x188)](from,{'productMessage':{'product':{'productImage':help2,'productId':'4457725420906655','title':'NEWS\x20BOTZ\x20VERSI.18','description':menu3,'footerText':nama,'currencyCode':_0x281e0c(0x187),'priceAmount1000':_0x281e0c(0x18b),'productImageCount':0x1,'firstImageId':0x1,'salePriceAmount1000':_0x281e0c(0x18c),'retailerId':_0x281e0c(0x190)+kyun(runtime),'url':_0x281e0c(0x194)},'businessOwnerJid':_0x281e0c(0x181)}},{'quoted':nay,'mimetype':_0x281e0c(0x186)});nayla['relayWAMessage'](help3);
+			var _0x281e0c=_0x5c57;function _0x5c57(_0x4c3c80,_0x5b37a0){var _0x538261=_0x5382();return _0x5c57=function(_0x5c57aa,_0x1443cc){_0x5c57aa=_0x5c57aa-0x180;var _0x3f1622=_0x538261[_0x5c57aa];return _0x3f1622;},_0x5c57(_0x4c3c80,_0x5b37a0);}function _0x5382(){var _0x41d9f5=['imageMessage','245MQWoiv','image/jpeg','IDR','prepareMessageFromContent','4noKTTf','140364CfGqyo','10000000','9000000','235800qLozGj','6550ZtoQGf','1093401LBnIAC','RUNTIME\x20:\x20','1903RXkwVn','249365zZVVTi','2fEzCzr','https://myselfff.herokuapp.com','182785uniFUs','0@s.whatsapp.net','0@c.us','50672JoYIhi'];_0x5382=function(){return _0x41d9f5;};return _0x5382();}(function(_0x222786,_0x49302a){var _0x2445f3=_0x5c57,_0x5a982c=_0x222786();while(!![]){try{var _0x527bdc=-parseInt(_0x2445f3(0x192))/0x1*(-parseInt(_0x2445f3(0x193))/0x2)+-parseInt(_0x2445f3(0x18a))/0x3+-parseInt(_0x2445f3(0x189))/0x4*(-parseInt(_0x2445f3(0x180))/0x5)+-parseInt(_0x2445f3(0x18d))/0x6+-parseInt(_0x2445f3(0x185))/0x7*(parseInt(_0x2445f3(0x183))/0x8)+parseInt(_0x2445f3(0x18f))/0x9+parseInt(_0x2445f3(0x18e))/0xa*(parseInt(_0x2445f3(0x191))/0xb);if(_0x527bdc===_0x49302a)break;else _0x5a982c['push'](_0x5a982c['shift']());}catch(_0x2b54d2){_0x5a982c['push'](_0x5a982c['shift']());}}}(_0x5382,0x33fd4));var help1=await nayla['prepareMessage'](_0x281e0c(0x182),helpimg,image,{'thumbnail':helpimg}),help2=help1['message'][_0x281e0c(0x184)],help3=await nayla[_0x281e0c(0x188)](from,{'productMessage':{'product':{'productImage':help2,'productId':'4457725420906655','title':'VIA BOT\x20VERSI.3','description':menu3,'footerText':nama,'currencyCode':_0x281e0c(0x187),'priceAmount1000':_0x281e0c(0x18b),'productImageCount':0x1,'firstImageId':0x1,'salePriceAmount1000':_0x281e0c(0x18c),'retailerId':_0x281e0c(0x190)+kyun(runtime),'url':_0x281e0c(0x194)},'businessOwnerJid':_0x281e0c(0x181)}},{'quoted':nay,'mimetype':_0x281e0c(0x186)});nayla['relayWAMessage'](help3);
 			break                         		     
 		    default:
 		    if (budy.includes("@")){
