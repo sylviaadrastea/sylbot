@@ -1,14 +1,14 @@
 {     
-    "prefix": ".",
-    "nama": "SYLVIA ADRASTEA",
+    "prefix": "#",
+    "nama": "SYLVIA",
     "sessionName": "session",
     "nameOwner": "Sylvia Adrastea",
     "oownerNumber": "62857980707940",
-    "respon": "*IYA KAK? ADA YANG BISA SAYA BANTU? JIKA BINGUNG KETIK .menu UNTUK MENAMPILKAN MENU BOT*!",
+    "respon": "*yaa? ada yang bisa saya bantu? ketik #menu untuk menampilkan menu bot*!",
     "namabot": "SYLBOT",
     "limitawal": "500",
     "linkgrub1": "",
     "linkgrub2": "",
     "linkgrub3": "",
-    "prosess": "*WAITT PROCESS....*"
+    "prosess": "*anoo...tunggu sebentar*"
 }        
